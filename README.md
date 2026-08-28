@@ -35,40 +35,68 @@ All references and research claims listed in the AI assisted Research Paper have
 
 ## Curated Research Papers
 
-### Multilingual Architecture & Pre-training
-* **LLaMA-3 / Polyglot Approaches:** Architectural considerations for scaling multilingual context windows and vocabulary sizes.
-* **BLOOM:** BigScience Large Open-science Open-access Multilingual Language Model (*Workshop et al., 2022*).
+### 1. Survey / Review Papers
 
-### Cross-Lingual Alignment & Adaptation
-* **XLM-RoBERTa:** Unsupervised Cross-lingual Representation Learning at Scale (*Conneau et al., 2020*).
-* **Cross-Lingual Adapter Tuning:** Parameter-efficient fine-tuning strategies for low-resource adaptation.
+1. **A Survey of Multilingual Large Language Models**
+2. **A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias**
+3. **Multilingual Large Language Models: A Systematic Survey**
+4. **Multilingual Large Language Model: A Survey of Resources, Taxonomy and Frontiers**
+5. **Large Language Models Hallucination: A Comprehensive Survey**
+6. **Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models**
+
+### 2. Foundational Papers
+
+1. **XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization**
+2. **XTREME-R: Towards More Challenging and Nuanced Multilingual Evaluation**
+3. **No Language Left Behind: Scaling Human-Centered Machine Translation**
+4. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
+5. **The FLORES-101 Evaluation Benchmark for Low-Resource and Multilingual Machine Translation**
+
+### 3. Methods / Algorithms
+
+1. **MlingConf: A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models**
+2. **CrossIn: An Efficient Instruction Tuning Approach for Cross-Lingual Knowledge Alignment**
+3. **Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning (PolyFact)**
+4. **ECLeKTic: A Novel Challenge Set for Evaluation of Cross-Lingual Knowledge Transfer**
+5. **Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs**
+
+### 4. Applications (Scientific Literature Specific)
+
+1. **Reducing Hallucinations in LLM-based Scientific Literature Analysis Using Peer Context Outlier Detection**
+2. **ArxEval: Evaluating Retrieval and Generation in Language Models for Scientific Literature**
+3. **Cross-lingual Extreme Summarization of Scholarly Documents (X-SciTLDR)**
+4. **Challenges in Guardrailing Large Language Models for Science**
 
 ---
 
-## Datasets
+# Datasets
 
-| Dataset | Source | Description | Primary Use Case | Link |
-| :--- | :--- | :--- | :--- | :--- |
-| **FLORES-200** | Meta AI | Evaluation benchmark covering 200 languages for machine translation and alignment. | Benchmark / Evaluation | [Link](https://github.com/facebookresearch/flores) |
-| **mC4** | AllenNLP / Google | Multilingual variant of the C4 web-scraped dataset covering 101 languages. | Pre-training | [Link](https://huggingface.co/datasets/mc4) |
-| **TyDi QA** | Google Research | Information-seeking question answering dataset covering 11 typologically diverse languages. | Question Answering | [Link](https://github.com/google-research-datasets/tydiqa) |
+| Dataset | Source | Description | Use | Link |
+|---|---|---|---|---|
+| **FLORES-200 / FLORES+** | Meta AI | Multilingual translation benchmark covering approximately 200 languages. | Evaluates multilingual and cross-lingual machine translation. | [Hugging Face](https://huggingface.co/datasets/openlanguagedata/flores_plus) |
+| **Belebele** | Meta AI | Multilingual reading comprehension dataset covering 122 languages. | Evaluates multilingual reading comprehension and language understanding. | [Hugging Face](https://huggingface.co/datasets/facebook/belebele) |
+| **SEAHORSE** | Google Research | Multilingual dataset for evaluating generated summaries. | Evaluates multilingual summarization quality and factuality. | [Paper](https://arxiv.org/pdf/2305.13194) |
 
 ---
 
-## Tools and Libraries
+# Tools
 
-* **Hugging Face Transformers:** Framework providing pre-trained multilingual model architectures (mBERT, XLM-R, mBART).
-* **SentencePiece:** Unsupervised text tokenizer used for building subword vocabularies across mixed languages.
-* **Stanza:** Stanford NLP package providing linguistic analysis support for 70+ languages.
-
+| Tool | Purpose | Link |
+|---|---|---|
+| **mT5** | Multilingual text-to-text model supporting 101 languages. | [Hugging Face](https://huggingface.co/docs/transformers/en/model_doc/mt5) |
+| **XLM-RoBERTa** | Multilingual language model trained across 100 languages for cross-lingual NLP tasks. | [Hugging Face](https://huggingface.co/docs/transformers/en/model_doc/xlm-roberta) |
+| **NLLB-200** | Multilingual translation model supporting direct translation across 200 languages. | [Meta AI](https://ai.meta.com/research/no-language-left-behind/) |
+| **SelfCheckGPT** | Black-box method for detecting hallucinations in LLM-generated text. | [GitHub](https://github.com/potsawee/selfcheckgpt) |
+| **spaCy** | NLP library for text processing, linguistic analysis, and multilingual language tasks. | [GitHub](https://github.com/explosion/spacy) |
 ---
 
 ## GitHub Implementations
 
-* [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) - Sequence-to-sequence toolkit for multilingual translation and representation learning.
-* [google-research/bert](https://github.com/google-research/bert) - Official implementation of Multilingual BERT (mBERT).
-* [huggingface/peft](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning strategies for adapting open LLMs to new target languages.
-
+* https://github.com/google-research/xtreme - Official XTREME benchmark implementation and evaluation baselines for cross-lingual language understanding.
+* https://github.com/potsawee/selfcheckgpt - Implements SelfCheckGPT for black-box hallucination detection in LLM-generated text.
+* https://github.com/vibrantlabsai/ragas - RAG evaluation framework for measuring retrieval and generation quality.
+* https://github.com/EdinburghNLP/awesome-hallucination-detection - Curated collection of hallucination detection papers, metrics, and datasets.
+* https://github.com/tjunlp-lab/Awesome-Multilingual-LLMs-Papers - Organized collection of multilingual LLM papers and resources by research topic.
 ---
 
 ## Tutorials and Learning Resources
