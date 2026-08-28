@@ -99,10 +99,11 @@ All references and research claims listed in the AI assisted Research Paper have
 * https://github.com/tjunlp-lab/Awesome-Multilingual-LLMs-Papers - Organized collection of multilingual LLM papers and resources by research topic.
 ---
 
-## Tutorials and Learning Resources
+## Tutorials
 
-* **ACL Anthology - Multilingual NLP Tutorials:** Comprehensive lecture series on zero-shot cross-lingual transfer.
-* **Hugging Face Course (Multilingual NLP Section):** Practical guide on fine-tuning tokenizers and language models for non-English datasets.
-* **Stanford CS224N:** Stanford University lectures covering cross-lingual representations and neural machine translation.
-
+* https://huggingface.co/blog/dhuynh95/automatic-hallucination-detection - Hands-on guide to using SelfCheckGPT with NLI models for hallucination detection.
+* https://research.google/blog/xtreme-a-massively-multilingual-multi-task-benchmark-for-evaluating-cross-lingual-generalization/ - Overview of the XTREME benchmark for evaluating cross-lingual generalization.
+* https://ai.meta.com/blog/nllb-200-high-quality-machine-translation/ - Introduction to NLLB-200 and its multilingual machine translation capabilities.
+* https://gist.github.com/donbr/a6e0fd539c1288b5ab3d88bb42f75a40 - Practical walkthrough for evaluating RAG systems using metrics such as faithfulness and consistency.
+* https://huggingface.co/datasets/facebook/belebele - Dataset resource for exploring and using the Belebele multilingual reading-comprehension benchmark.
 ---
