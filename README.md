@@ -37,35 +37,71 @@ All references and research claims listed in the AI assisted Research Paper have
 
 ### 1. Survey / Review Papers
 
-1. **A Survey of Multilingual Large Language Models**
-2. **A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias**
-3. **Multilingual Large Language Models: A Systematic Survey**
-4. **Multilingual Large Language Model: A Survey of Resources, Taxonomy and Frontiers**
-5. **Large Language Models Hallucination: A Comprehensive Survey**
-6. **Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models**
+1. **A Survey of Multilingual Large Language Models**  
+   DOI: `10.1016/j.patter.2024.101118`
+
+2. **A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias**  
+   DOI: `10.1007/s11704-024-40579-4`
+
+3. **Multilingual Large Language Models: A Systematic Survey**  
+   DOI: `10.48550/arXiv.2411.11072`
+
+4. **Multilingual Large Language Model: A Survey of Resources, Taxonomy and Frontiers**  
+   DOI: `10.48550/arXiv.2404.04925`
+
+5. **Large Language Models Hallucination: A Comprehensive Survey**  
+   DOI: `10.1016/j.cosrev.2026.100970`
+
+6. **Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models**  
+   DOI: `10.1007/s10462-025-11454-w`
 
 ### 2. Foundational Papers
 
-1. **XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization**
-2. **XTREME-R: Towards More Challenging and Nuanced Multilingual Evaluation**
-3. **No Language Left Behind: Scaling Human-Centered Machine Translation**
-4. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
-5. **The FLORES-101 Evaluation Benchmark for Low-Resource and Multilingual Machine Translation**
+1. **XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization**  
+   DOI: `10.48550/arXiv.2003.11080`
+
+2. **XTREME-R: Towards More Challenging and Nuanced Multilingual Evaluation**  
+   DOI: `10.18653/v1/2021.emnlp-main.802`
+
+3. **No Language Left Behind: Scaling Human-Centered Machine Translation**  
+   DOI: `10.48550/arXiv.2207.04672`
+
+4. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**  
+   DOI: `10.18653/v1/2023.emnlp-main.557`
+
+5. **The FLORES-101 Evaluation Benchmark for Low-Resource and Multilingual Machine Translation**  
+   DOI: `10.1162/tacl_a_00474`
 
 ### 3. Methods / Algorithms
 
-1. **MlingConf: A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models**
-2. **CrossIn: An Efficient Instruction Tuning Approach for Cross-Lingual Knowledge Alignment**
-3. **Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning (PolyFact)**
-4. **ECLeKTic: A Novel Challenge Set for Evaluation of Cross-Lingual Knowledge Transfer**
-5. **Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs**
+1. **MlingConf: A Comprehensive Study of Multilingual Confidence Estimation on Large Language Models**  
+   DOI: `10.18653/v1/2025.findings-acl.129`
+
+2. **CrossIn: An Efficient Instruction Tuning Approach for Cross-Lingual Knowledge Alignment**  
+   DOI: `10.48550/arXiv.2404.11932`
+
+3. **Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning (PolyFact)**  
+   DOI: `10.48550/arXiv.2606.06586`
+
+4. **ECLeKTic: A Novel Challenge Set for Evaluation of Cross-Lingual Knowledge Transfer**  
+   DOI: `10.48550/arXiv.2502.21228`
+
+5. **Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs**  
+   DOI: `10.48550/arXiv.2607.19243`
 
 ### 4. Applications (Scientific Literature Specific)
 
-1. **Reducing Hallucinations in LLM-based Scientific Literature Analysis Using Peer Context Outlier Detection**
-2. **ArxEval: Evaluating Retrieval and Generation in Language Models for Scientific Literature**
-3. **Cross-lingual Extreme Summarization of Scholarly Documents (X-SciTLDR)**
-4. **Challenges in Guardrailing Large Language Models for Science**
+1. **Reducing Hallucinations in LLM-based Scientific Literature Analysis Using Peer Context Outlier Detection**  
+   DOI: `10.48550/arXiv.2604.01461`
+
+2. **ArxEval: Evaluating Retrieval and Generation in Language Models for Scientific Literature**  
+   DOI: `10.48550/arXiv.2501.10483`
+
+3. **Cross-lingual Extreme Summarization of Scholarly Documents (X-SciTLDR)**  
+   DOI: `10.1007/s00799-023-00373-2`
+
+4. **Challenges in Guardrailing Large Language Models for Science**  
+   DOI: `10.48550/arXiv.2411.08181`
 
 ---
 
